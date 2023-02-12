@@ -27,7 +27,7 @@ export const InputToDo = (props) => {
                 value={text}
                 onChange={handleChange}
             />
-            <button onClick={handleEnter} class="button">追加</button>
+            <button onClick={handleEnter} class="button">Add</button>
         </div>
     );
 }
