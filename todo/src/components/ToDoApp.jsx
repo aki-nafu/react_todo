@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import 'bulma/css/bulma.css';
+import icon from '../icon.png'
 
 import { InputToDo, Filter, ToDo } from './index';
 
@@ -42,7 +43,7 @@ export const ToDoApp = () => {
     return (
         <div className="panel is-warning">
             <h1 className="panel-heading" align="center">
-                ToDo
+                <img src={icon} width="20" height="20" align="center" alt='' />ToDo
             </h1>
             <InputToDo onAdd={handleAdd} />
             <Filter

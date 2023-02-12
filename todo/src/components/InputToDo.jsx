@@ -21,13 +21,13 @@ export const InputToDo = (props) => {
     return (
         <div className="panel-block">
             <input
-                class="input"
+                className="input"
                 type="text"
                 placeholder="Enter to add"
                 value={text}
                 onChange={handleChange}
             />
-            <button onClick={handleEnter} class="button">Add</button>
+            <button onClick={handleEnter} className="button">Add</button>
         </div>
     );
 }
